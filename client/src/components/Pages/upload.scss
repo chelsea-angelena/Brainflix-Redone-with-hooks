@@ -1,0 +1,102 @@
+@import '../_scss/mixins.scss';
+@import '../_scss/font-face.scss';
+@import '../_scss/reset.scss';
+@import '../_scss/variables.scss';
+
+.button__blue {  
+    @include cta-button;
+    width: 100%;
+    align-self: center;
+    border: none;
+    font-size: 1.4rem;
+    font-family: 'avenir-demi-bold';
+    height: 4rem;
+    color: $second-color;
+    margin: 0 60px 0 40px;
+    }
+.upload__div {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+h2 {
+    align-self: flex-start;
+    font-size: 32px;
+    font-family: 'avenir-bold';
+    }
+
+
+h4 {
+    font-size: 16px;
+    color: grey;    
+    align-self: flex-start;
+    margin: 24px 0 0 0; 
+    font-family: 'avenir-demi-bold';
+}
+
+.upload__image {
+    max-width: 100%;
+    margin-top: 24px;
+}
+
+.input__text {
+    margin: 24px 0 24px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: grey 2px solid;
+}
+.input__textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    border: grey 2px solid;
+    margin: 24px 0 24px 0;
+}
+
+.button__blue button {
+    width: 100%;
+}
+
+// button {
+//     width: 100%;
+// }
+
+.button__div {
+    width: 100%;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.button__div--white {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+    padding: 24px;
+}
+
+.button__white {
+    width: 100%;
+    margin: 0 24px 0 24px;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    @include cta-button;
+    background-color: white;
+    color:blue;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    width: 95%;
+}
+

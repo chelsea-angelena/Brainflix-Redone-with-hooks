@@ -1,0 +1,193 @@
+// @import './../variables.scss';
+// @import './../mixins.scss';
+// @import './../font-face.scss';
+// @import './../reset.scss';
+
+// .comments {
+//     box-sizing: border-box;
+//     min-width:380px;
+//     max-width: 100%;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     flex-wrap: no-wrap;
+//     padding: 0;
+//     justify-content: center;
+//     margin: 0 16px;
+//         &__header {
+//             @include font-big;
+//             align-self: flex-start;
+//             text-align: left;
+//             margin: 40px 16px 32px 0;
+//         }
+//         &__input-label {
+//             // margin: 24px
+//             align-self: center;
+//             text-align: left;
+//         min-width: 300px;
+//         max-width: 100%;
+//             @include font-med;
+//             font-weight: bold;
+//             font-size: 1rem;
+//             margin-bottom: 8px;
+//             color: $dark-grey
+//             }
+//         &__input-box {
+//             height: 130px;
+//             // background-color: $second-color;
+//             // background-position: 10px 10px;
+//             // background-repeat: no-repeat;
+//             // padding-left: 40px;
+//             // height: 80px;
+//             border-radius: 6px;
+//             border: $cta-hover 3px solid;
+//             min-width: 300px;
+//             max-width: 100%;
+//             display: flex;
+//             align-items: center;
+//             align-self: center;
+//             margin: 16px 16px 16px 16px;
+//                 }
+//         &__button--button {
+//             margin: 8px 0 16px 42px;
+//                 min-width: 300px;
+//                 max-width: 100%;
+//                 @include cta-button;
+//                 align-self: center;
+//                 border: none;
+//                 font-size: 1.4rem;
+//                 font-family: 'avenir-demi-bold';
+//                 height: 4rem;
+//                 color: $second-color;
+//                 }
+//         &__icon {
+//             width: 48px;
+//             height: 48px;
+//             border-radius: 30px;
+//             background-image: url('../../assetts/Images/Mohan-muruge.jpg');
+//             background-position: left;
+//             background-size: cover;
+//             margin-top: 16px;
+//             }
+//         }
+
+//         .row {
+//             display: flex;
+//             flex-direction: row;
+//             width: 100%;
+//             justify-content: center;
+//             align-self: center;
+//         }
+
+// // @media screen and (min-width: 768px){
+// //     .header {
+// //         min-width: 768px;
+// //         max-width: 100%;
+// //         display: flex;
+// //         flex-direction: row;
+// //         justify-content: center;
+// //         align-items: center;
+// //         align-self: center;
+// //     }
+// //     .search__input{
+// //         display: flex;
+// //         align-self: center;
+// //     }
+// //     }
+
+// // .button__icon--upload {
+// //         background-image: url("../../assetts/Icons/SVG/Icon-upload.svg");
+// //         background-position: 10px 10px;
+// //         background-repeat: no-repeat;
+// //         padding-left: 40px;
+// //         height: 40px;
+// //         border-radius: 8px;
+// //         order: lightgrey 2px solid;
+// //         max-width: 100%;
+// //         min-width: 200px;
+// //   };
+
+
+
+
+
+
+
+
+// // .comments {
+// //     width: 100;
+// //     margin: 0 16px;
+// // }
+// // h3 {
+// //    font-family: 'avenir-demi-bold';
+// //    text-align: left;
+// //    @include font-big;
+// //    margin: 40px 16px 32px 16px;
+// // }
+
+// // .comments__input-label {
+// //     text-align: left;
+// //     align-self: baseline;
+// //     margin-left: 80px;
+// //     display: flex;
+// //     font-family: 'avenir-demi-bold';
+// //     color: $dark-grey;
+// // }
+
+// // .comments__input-box {
+// //     min-width: 320px;
+// //     max-width: 100%;
+// //     margin: 0 16px;
+// //     height: 100px;
+// //     display: inine-block;
+// //     border: 3px $cta-hover solid;
+// //     border-radius: 4px;
+// //     font-family: 'avenir-demi-bold';
+// // }
+
+// // .form__div {
+// //     display: flex;
+// //     flex-direction: column;
+// //     align-items: flex-start;
+// // }
+// // .comments__button {
+// //     margin: 0 0 0 16px;
+// // }
+// // .comments__button--button {
+// //         max-width: 100%;
+// //         min-width: 320px;
+// //         margin: 16px 0 0 42px;
+// //         @include cta-button;
+// //         }
+// // .comments__icon {
+// //     display: inline-block;
+// //     width: 48px;
+// //     height: 48px;
+// //     border-radius: 30px;
+// //     padding: 0 16px;
+// //     margin-left: 16px;
+// //     background-image: url('../../assetts/Images/Mohan-muruge.jpg');
+// //     background-position: center;
+// //     background-size: cover;
+// //     }
+
+// // .box--box {
+// //     display: flex;
+// //     flex-direction: row;
+// //     width: 100%;
+// //     flex-wrap: no-wrap;
+// // }
+
+
+// // // .comment__icon--upload {
+// // // background-image: url("../../assetts/Icons/SVG/Icon-upload.svg");
+// // // background-position: 10px 10px;
+// // // background-repeat: no-repeat;
+// // // padding-left: 40px;
+// // // height: 40px;
+// // // border-radius: 8px;
+// // // order: lightgrey 2px solid;
+// // // max-width: 100%;
+// // // min-width: 200px;
+// // // };
+

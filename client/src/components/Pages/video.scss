@@ -1,0 +1,268 @@
+@import '../_scss/mixins.scss';
+@import '../_scss/font-face.scss';
+@import '../_scss/reset.scss';
+@import '../_scss/variables.scss';
+
+.video {
+	max-width: '100%';
+	&__div {
+		padding: 0px 16px 0px 16px;
+	}
+	&__title--main {
+		font-family: 'avenir-bold';
+		font-size: 2rem;
+		max-width: 100%;
+		margin-top: 24px;
+	}
+	&__channel {
+		font-family: 'avenir-demi-bold';
+		font-size: 20px;
+		margin-top: 24px;
+	}
+	&__description {
+		margin: 0;
+		text-align: left;
+		border-top: solid $med-grey 2px;
+		padding-top: 24px;
+		font-family: 'avenir-regular';
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+	&__next {
+		padding: 24px 0px 24px 0px;
+		color: $dark-grey;
+		font-weight: bold;
+		border-top: solid $med-grey 2px;
+		margin: 0px 16px 0px 16px;
+	}
+}
+
+.social__data {
+	max-width: 40%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin: 16px 16px 0px 16px;
+	align-items: center;
+	font-family: 'avenir-regular';
+	color: $main-color;
+	display: flex;
+	align-self: flex-start;
+	align-items: center;
+	&--likes {
+		width: 20px;
+		height: 20px;
+		// margin-left: 40px;
+		background-image: url('../../assets/icons/SVG/Icon-likes.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	&--views {
+		width: 20px;
+		height: 20px;
+		// padding: 2px;
+		background-image: url('../../assets/icons/SVG/Icon-views.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	&--viewsData {
+		margin-left: 30px;
+	}
+	&--likesData {
+		margin-left: 30px;
+	}
+}
+.makeComment {
+	box-sizing: border-box;
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: no-wrap;
+	padding: 0;
+	justify-content: center;
+	// margin: 0 16px;
+	&__icon {
+		margin: 42px 0 0 0;
+		width: 48px;
+		height: 48px;
+		background-image: url('../../assets/images/Mohan-muruge.jpg');
+		background-size: cover;
+		background-position: left;
+		border-radius: 40px;
+	}
+	&__title {
+		align-self: flex-start;
+		text-align: left;
+		margin: 40px 16px 32px 24px;
+		font-size: 1.25rem;
+	}
+	&__input-label {
+		// margin: 24px
+		align-self: center;
+		text-align: left;
+		min-width: 320px;
+		max-width: 100%;
+		font-weight: bold;
+		font-size: 1rem;
+		margin-bottom: 8px;
+		color: $dark-grey;
+	}
+	&__input-box {
+		height: 130px;
+		border-radius: 6px;
+		border:$dark-grey 1px solid;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		align-self: center;
+		margin: 16px 16px 16px 16px;
+	}
+}
+.makeComment__button--button {
+	// margin: 8px 0 16px 56px;
+	@include cta-button;
+	width: 100%;
+	align-self: center;
+	border: none;
+	font-size: 1.4rem;
+	font-family: 'avenir-demi-bold';
+	height: 4rem;
+	color: $second-color;
+	margin: 0 60px 0 40px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-self: center;
+}
+.makeComment__input-label {
+	margin-left: 24px;
+	font-weight: bold;
+	font-family: 'avenir-demi-bold';
+	font-size: 16px;
+}
+.user__image {
+	width: 48px;
+	height: 48px;
+	border-radius: 30px;
+}
+.comment__sng {
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 24px 16px;
+	font-family: 'avenir-regular';
+	line-height: 20px;
+	border-top: 2px solid $med-grey;
+	font-size: 1rem;
+	padding: 32px 0 0 0;
+}
+
+.comment__image {
+	width: 48px;
+	height: 48px;
+	border-radius: 48px;
+	background-color: $med-grey;
+}
+.comment__row {
+	display: flex;
+}
+
+.comment__name {
+	font-family: 'avenir-demi-bold';
+	font-size: 1.25rem;
+	// width:"90%";
+	margin: 0 10px 0 10px;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+}
+.comment__comment {
+	margin-left: 22%;
+}
+.comment__date {
+	font-family: 'avenir-regular';
+	font-size: 12px;
+	margin: 20px 20px 0px 20px;
+	align-self: flex-end;
+}
+.sidevideo {
+	padding: 0px 16px 0px 16px;
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	&__img--div {
+		width: 100%;
+	}
+	&__img {
+		border-radius: 24px;
+		padding: 16px;
+		min-width: 100px;
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 12px;
+		padding: 16px;
+		width: 120px;
+	}
+	&__channel {
+		padding: 0 16px;
+		font-size: 12px;
+	}
+}
+img.sidevideo__img {
+	width: 300px;
+}
+#videoImage {
+	width: 300px;
+}
+@media screen and (min-width: 768px) {
+    .video__description {
+		padding-right: 180px;
+	}
+	input.makeComment__input-box {
+		width: 400px;
+		display: flex;
+		align-self: flex-start;
+	}
+	.makeComment__button--buton {
+		display: flex;
+		align-self: flex-start;
+		margin: 0;
+		padding: 0;
+	}
+	div.row {
+		display: flex;
+		width: 100%;
+	}
+p.comment__comment {
+    margin: 0px 0px 0px 54px;
+}
+div.sidevideo__row {
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+.sidevideo__title{
+width: 200px;
+font-size: 1.2rem;
+&__channel {
+    font-size: 1.2rem;
+}
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .video__ol-div {
+        background-color: black;
+    }
+    #player {
+        padding: 0px 180px 0px 180px;
+    }
+}

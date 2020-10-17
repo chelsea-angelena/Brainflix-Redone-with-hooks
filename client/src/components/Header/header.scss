@@ -1,0 +1,151 @@
+@import '../_scss/variables.scss';
+@import '../_scss/mixins.scss';
+@import '../_scss/font-face.scss';
+@import '../_scss/reset.scss';
+// @import '../_scss/media.scss;
+
+.header {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	// flex-wrap: nowrap;
+	// padding: 0;
+	align-self: center;
+	justify-content: center;
+	&__logo-div {
+		margin: 24px 0 16px 0;
+	}
+	&__search--input {
+		background-image: url('../../assets/icons/SVG/Icon-search.svg');
+		background-repeat: no-repeat;
+		background-position: left;
+		display: flex;
+		padding: 3px 100px 3px 20px;
+		align-self: flex-start;
+		border: none;
+		max-width: 100%;
+	}
+	&__search {
+		max-width: 100%;
+		border: 2px solid $med-grey;
+		height: 48px;
+		border-radius: 8px;
+		padding: 10px 0;
+	}
+	&__button-div {
+		height: 60px;
+		width: 200px;
+	}
+	&__button {
+		@include cta-button;
+		width: 100%;
+	}
+	&__icon-div {
+		margin-left: 16px;
+		margin-bottom: 8px;
+		width: 48px;
+		height: 48px;
+		background-image: url('../../assets/images/Mohan-muruge.jpg');
+		background-size: cover;
+		background-position: left;
+		border-radius: 40px;
+	}
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-items: center;
+		margin: 8px 0 16px 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		flex-direction: row;
+		align-items: center;
+		display: flex;
+		&__logo-div {
+			margin-right: 120px;
+			padding: 16px;
+		}
+		&__channel-row {
+			display: flex;
+			flex-direction: row;
+		}
+		&__row {
+			align-items: flex-end;
+			margin: 8px 0 0 0;
+		}
+		&__button-div {
+			width: 120px;
+			margin: 0 0 0 24px;
+		}
+		&__search {
+			width: 25%;
+			padding: 12px 8px 8px 8px;
+		}
+		&__search-input {
+			width: 10%;
+		}
+		&__icon {
+			margin-right: 0;
+		}
+	}
+
+	.video__channel-row .social__data {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	div.header {
+		padding: 0px 100px 0px 100px;
+	}
+	div.header__search {
+		margin: 0;
+    }
+    // div.video__ol {
+    //     padding-left: 100px;
+	// 	width: 50%;
+    // }
+	div.video__div {
+
+        padding-left: 120px;
+		width: 60%;
+	}
+	.header {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+		&__logo {
+			align-self: flex-start;
+		}
+    }
+
+	div.makeComment {
+		padding-left: 100px;
+		width: 50%;
+	}
+	.comments__list {
+		padding-left: 100px;
+		width: 50%;
+	}
+
+// div.comment {
+//     padding-left: 100px;
+//     width: 50%;
+// }
+// div.videochannel__row {
+//     padding-left: 100px;
+//     width: 50%;
+// }
+
+div.sidevideo__row {
+    display: flex;
+    position: relative;
+    top: 200
+}
+
+}

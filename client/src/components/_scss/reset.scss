@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+:root {
+    font-size: 14px;
+    font-family: 'avenir-regular', 'avenir-bold', 'avenir-demi-bold';
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style:none;
+   }
+
+   a {
+       text-decoration: none;
+   }
+
+
+
+
+@media screen and (min-width: 1200px) {
+    * {
+        font-size: 18px;
+}
+}
