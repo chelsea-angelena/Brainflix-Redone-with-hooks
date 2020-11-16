@@ -2,15 +2,13 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import useVideos from './useVideos';
 import MainVideo from './MainVideo';
-import Header from '../Header/Header';
+
 
 export default function HooksHome() {
 	const [videos] = useVideos();
 
 	return (
 		<>
-			<Header />
-
 			<Route path='/videos/:id' component={MainVideo} />
 			<Route
 				path='/videos'

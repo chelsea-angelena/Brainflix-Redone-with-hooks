@@ -66,8 +66,4 @@ export default function UploadPage() {
 	);
 }
 
-// <form action = "/" method = "POST">
-// <input type="text" name="name" placeholder="first name">
-// <input type="text" name ="email" placeholder="email">
-// <button type = "submit" name= "submitButton">Sign up here!</button>
-// </form>
+
